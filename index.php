@@ -11,6 +11,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <h1>Hola</h1>
+    <h1>nada</h1>
 </body>
 </html>
