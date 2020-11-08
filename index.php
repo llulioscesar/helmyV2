@@ -11,6 +11,25 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <h1>nada</h1>
+    <div class="descub">
+        <a href="javascript:void(0)" id="custom"><img src="css/images/BotonDescubree.png" alt="Descubre"></a>
+    </div>  
+    <div class="log-helmy">
+        <img src="css/images/LogoHelmy.png" alt="Descubre">
+    </div> 
+    <div class="elMejor">
+        <img src="css/images/Elmejor.png" alt="El Mejor Invento">
+    </div> 
+    <div class="back-index">
+        <img src="css/images/BackgroundIndex.png" alt="IMAGEN PRINCIPAL">
+    </div>
+    <div class="naver">
+        <div class="items-social">
+            <a href="https://www.facebook.com/" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" id="customBtnFace" target="_blank"><img src="css/images/instagramSocial.png" alt="Instagram"></a>
+            <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
+        </div>
+        <div class="lineBorder"></div>
+    </div>
 </body>
 </html>
