@@ -21,10 +21,10 @@
         <li><a href="javascript:void(0)" class="btn" id="nosotrosRe">Nosotros</a></li>
         <li><a href="javascript:void(0)" class="btn" id="contactRe">Contacto</a></li>
     </ul>
-    <ul class="home-logo"><li class="home"><a href="javascript:void(0)" id="logRe"><img src="css/images/home-one.png" alt="HELMY"></a></li></ul>
+    <ul id="hom" class="home-logo"><li class="home"><a href="javascript:void(0)" id="logRe"><img src="css/images/home-one.png" alt="HELMY"></a></li></ul>
     <div class="lineIndex"></div>
-    <script src="js/default.js"></script>
 </nav>
+<script src="js/default.js"></script>
 <div id="dash"></div>
 </body>
 </html>
