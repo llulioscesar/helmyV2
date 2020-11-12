@@ -1,4 +1,8 @@
-$('html,body').css('overflow', 'auto');
+// $("body").css("overflow", "auto");
+
+$(window).on('load', function () {
+    $("#nav").css("background", "#000000");
+ })
 
 $(function() {
     $('#helmyCRe').on('click', function() {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +51,6 @@
             <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
         </div>
     </div>
-    <script src="js/app.js"></script>
+<script src="js/app.js"></script>    
 </body>
 </html>

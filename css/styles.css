@@ -14,13 +14,36 @@ body {
 }
 
 body {
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .back-index img {
   width: 100%;
   height: 100vh;
+}
+
+.back-app img {
+  width: 100%;
+  height: 100vh;
+}
+
+.backn {
+  width: 100%;
+  height: 500vh;
+  background-image: url("images/BackgroundProducts.png");
+  background-attachment: fixed;
+}
+
+.backLogin img {
+  width: 100%;
+  height: 100vh;
+}
+
+.backWe {
+  width: 100%;
+  height: 305vh;
+  background-image: url("images/BGLogin.png");
+  background-attachment: fixed;
 }
 
 .nav {
@@ -35,7 +58,7 @@ body {
 
 .cabeceraOscura {
   position: fixed;
-  background-color: #000000;
+  background-color:  #000000;
   width: 100%;
   height: 5rem;
   top: 0;
@@ -88,30 +111,71 @@ body {
   margin-left: -50%;
 }
 
+.home-all li {
+  list-style: none;
+}
+
+.homeAll img {
+  display: inline-block;
+  width: 75%;
+  margin-top: 28%;
+  margin-left: -50%;
+}
+
 .lineIndex {
   position: absolute;
   border-bottom: 1px solid rgba(112, 112, 112, 0.3);
   opacity: 100;
   width: 100%;
-  height: 8px;
+  height: 1vh;
   margin-top: 6%;
 }
 
 .naver {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
   width: 6%;
   height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  display: flex;
+  z-index: 10;
+}
+
+.naverLogin {
+  width: 6%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0);
   top: 0;
   display: flex;
   z-index: 10;
 }
 
 .naverApp {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
   width: 6%;
   height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  display: flex;
+  z-index: 10;
+}
+
+.naverProducts {
+  width: 6%;
+  height: 500vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  display: flex;
+  z-index: 10;
+}
+
+.naverWe {
+  width: 6%;
+  height: 305vh;
+  position: absolute;
+  background-color: #000000;
   top: 0;
   display: flex;
   z-index: 10;
@@ -178,6 +242,7 @@ body {
 }
 
 .sp {
+  font-family: Spartan Thin;
   display: block;
   color: #0090ff;
   margin-left: 215%;
@@ -186,6 +251,7 @@ body {
 }
 
 .en {
+  font-family: Spartan Thin;
   display: block;
   color: #FFFFFF;
   margin-left: 221%;
@@ -207,11 +273,6 @@ body {
   position: absolute;
 }
 
-.back-app img {
-  width: 100%;
-  height: 100vh;
-}
-
 .cuadricula {
   position: absolute;
 }
@@ -223,6 +284,17 @@ body {
   margin-left: 35%;
 }
 
+.cuadriculaTwo {
+  position: absolute;
+}
+
+.cuadriculaTwo img {
+  width: 65%;
+  height: 30%;
+  margin-top: 93%;
+  margin-left: 25%;
+}
+
 .circulo {
   position: absolute;
 }
@@ -232,6 +304,17 @@ body {
   height: auto;
   margin-top: 25%;
   margin-left: 142%;
+}
+
+.circuloLogin {
+  position: absolute;
+}
+
+.circuloLogin img {
+  width: 55%;
+  height: auto;
+  margin-top: 6%;
+  margin-left: -13%;
 }
 
 .helmyApp {
@@ -284,7 +367,6 @@ body {
   position: absolute;
 }
 
-
 .botonGoogle img {
   width: 65%;
   height: auto;
@@ -312,4 +394,457 @@ body {
   height: auto;
   margin-top: 71%;
   margin-left: 57%;
+}
+
+.hel {
+  position: absolute;
+}
+
+.hel img {
+  width: 98%;
+  margin-top: 13%;
+  margin-left: 4%;
+  filter: blur(1.5px);
+}
+
+.all {
+  position: absolute;
+  height: 40vh;
+  overflow-y: scroll;
+  direction: rtl;
+  margin-left: 9%;
+  margin-top: 13%;
+  /* z-index: 1000; */
+}
+
+.all::-webkit-scrollbar {
+  width: 7px;
+}
+
+.all::-webkit-scrollbar-thumb {
+  background: #0090ff;
+  border-radius: 3px;
+}
+
+.fityFour {
+  position: absolute;
+  z-index: 1;
+}
+
+.fityFour img {
+  width: 65%;
+  margin-top: 20%;
+  margin-left: 19%;
+}
+
+.textProducts {
+  position: absolute;
+}
+
+.textProducts h3 {
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+  margin-top: 263%;
+  margin-left: 100%;
+}
+
+.lineProducts {
+  position: absolute;
+  border-bottom: 3px solid rgba(112, 112, 112, 0.3);
+  width: 62%;
+  margin-top: 42.5%;
+  margin-left: 35%;
+}
+
+.enmascararOne {
+  position: absolute;
+}
+
+.enmascararOne img {
+  width: 55%;
+  height: auto;
+  margin-top: 30%;
+  margin-left: 136%;
+}
+
+.enmascararTwo {
+  position: absolute;
+}
+
+.enmascararTwo img {
+  width: 57%;
+  height: auto;
+  margin-top: 40%;
+  margin-left: 452%;
+}
+
+.app {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 33%;
+}
+
+.textLogin {
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 2%;
+}
+
+.textLogin h4 {
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+}
+
+.form-group {
+  margin-top: 10%;
+}
+
+.mail {
+  position: absolute;
+  margin-top: 4.5%;
+  margin-left: 5%;
+}
+
+.mail img {
+  width: 70%;
+}
+
+.key {
+  position: absolute;
+  margin-top: 38.5%;
+  margin-left: 5%;
+}
+
+.key img {
+  width: 58%;
+}
+
+.textbox {
+  width: 220%;
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+  background-color: transparent !important;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  text-indent: 12%;
+  border-radius: 17px;
+  outline: none;
+}
+
+.textbox:focus {
+  border: 1px solid #0090ff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFFFFF;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.passRe {
+  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 130%;
+  z-index: 2;
+}
+
+.passRe a{
+  font-family: Spartan Thin;
+  font-size: 80%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.lineLogin {
+  position: absolute;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.5);
+  width: 75%;
+  margin-top: 1%;
+  margin-left: 16.5%;
+}
+
+.cp {
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 38%;
+  margin-bottom: 0.5%;
+}
+
+.g-recaptcha {
+  transform:scale(0.75);
+}
+
+.submitLogin {
+  position: absolute;
+  margin-top: 60%;
+  margin-left: 48%;
+}
+
+.btnDes:disabled {
+  font-family: Spartan Thin;
+  outline: none;
+  width: 315%;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #9F9F9F;
+	background-color: transparent !important;
+	color: #9F9F9F !important;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  cursor: default;
+}
+
+
+.btn_login{
+  font-family: Spartan Thin;
+  outline: none;
+  width: 315%;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #0090ff;
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  cursor: pointer;
+}
+
+.lineSubmit {
+  position: absolute;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.5);
+  width: 625%;
+  margin-top: 30%;
+  margin-left: -135%;
+}
+
+.textLoginRedes {
+  position: absolute;
+  width: 100%;
+  margin-top: 108%;
+  margin-left: 70%;
+}
+
+.textLoginRedes h4 {
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+}
+
+.textGoogle {
+  margin-left: -10%;
+  margin-top: 10%;
+}
+
+.itemsLogin {
+  position: absolute;
+  width: 10%;
+  margin-top: 105%;
+  margin-left: 48%;
+}
+
+.itemsLogin a img{
+  width: 140%;
+  margin-bottom: 20%;
+}
+
+.wetext { 
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 12%;
+}
+
+.wetext h4 {
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+  font-size: 150%;
+}
+
+.lineWe {
+  position: absolute;
+  border-bottom: 2.5px solid #FFFFFF;
+  width: 65%;
+  margin-top: 12%;
+  margin-left: 28%;
+}
+
+.cuadriculaWe {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: -4.5%;
+  z-index: -1;
+}
+
+.cuadriculaWe img {
+  width: 60%;
+}
+
+.honorWe {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 12%;
+}
+
+.honorWe img {
+  width: 58.7%;
+}
+
+.logEdisonWe {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 60%;
+}
+
+.logEdisonWe img {
+  width: 80%;
+}
+
+.marcoWe {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 12%;
+}
+
+.marcoWe img{
+  width: 92%;
+}
+
+.videoWe {
+  position: absolute;
+  margin-top: 42%;
+  margin-left: 12%;
+}
+
+.videoWe img {
+  width: 65%;
+}
+
+.wetextOne {
+  position: absolute;
+  margin-top: 53%;
+  margin-left: 52%;
+}
+
+.wetextOne h2 {
+  font-family: Spartan Thin;
+  color: #FFFFFF;
+}
+
+.wetextOne img{
+  width: 80%;
+  margin-top: 3%;
+}
+
+.threeWe {
+ position: absolute;
+ margin-top: 80%;
+ margin-left: 13%;
+}
+
+.threeWe img {
+  width: 60%;
+}
+
+.threekWe {
+  position: absolute;
+  margin-top: 83%;
+  margin-left: 33%;
+}
+
+.threekWe img{
+  width: 70%;
+}
+
+.fourWe {
+  position: absolute;
+  margin-top: 80%;
+  margin-left: 60%;
+}
+
+.fourWe img {
+  width: 60%;
+}
+
+.fourkWe {
+  position: absolute;
+  margin-top: 85%;
+  margin-left: 78%;
+}
+
+.fourkWe img {
+  width: 75%;
+}
+
+.iconWe {
+  position: absolute;
+  margin-top: 93%;
+  margin-left: 19%;
+}
+
+.iconWe img {
+  width: 60%;
+}
+
+.textOneWe {
+  position: absolute;
+  margin-top: 95.5%;
+  margin-left: 30%;
+}
+
+.textOneWe img {
+  width: 80%;
+}
+
+.bgCircleWe {
+  position: absolute;
+  margin-top: 80%;
+  z-index: -1;
+}
+
+.bgCircleWe img {
+  width: 67%;
+  margin-left: 147%;
+  filter: blur(1.8px);
+}
+
+.helmyWe {
+  position: absolute;
+  margin-top: 112%;
+  margin-left: 3%;
+  z-index: -1;
+}
+
+.helmyWe img {
+  width: 102%;
+}
+
+.textTwoWe {
+  position: absolute;
+}
+
+.textTwoWe img {
+  width: 60%;
+  margin-top: 187%;
+  margin-left: 45%;
+}
+
+.btnWe {
+  position: absolute;
+  margin-top: 138%;
+  margin-left: 45%;
+}
+
+.btnWe a {
+  font-family: Spartan Thin;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid #0090ff;
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  cursor: pointer;
 }

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Helmy</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="css/images/favicon.png">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-</head>
-<body>
+<div id="index">
     <div class="descub">
         <a href="javascript:void(0)" id="custom"><img src="css/images/BotonDescubre.png" alt="Descubre"></a>
     </div>  
@@ -22,7 +10,7 @@
     <div class="elMejor">
         <img src="css/images/Elmejor.png" alt="El Mejor Invento">
     </div> 
-    <div class="back-index">
+    <div class="back-index" id="index">
         <img src="css/images/BackgroundIndex.png" alt="IMAGEN PRINCIPAL">
     </div>
     <div class="naver">
@@ -36,5 +24,7 @@
         </div>
         <div class="lineBorder"></div>
     </div>
+</div> 
+<!-- <script src="js/scroll.js"></script>       -->
 </body>
 </html>
