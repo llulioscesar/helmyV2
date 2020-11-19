@@ -3,7 +3,17 @@
             <img src="css/images/GrupoFifty.png" alt="">
         </div>
         <div class="fityFour">
-            <img src="css/images/GrupoFifty-four.png" alt="">
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Bienvenido al mundo de Helmy<br>
+                ¡el mejor invento después de las motos!
+            </h3>
+            <h4>Helmy es un producto que consta de dos dispositivos. Ambos<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;los vas a configurar y a usar desde la aplicación celular<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helmy-APP.
+            </h4>
         </div>
         <div class="textProducts">
             <h3>FUNCIONALIDADES</h3>

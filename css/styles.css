@@ -18,6 +18,11 @@ body {
   src: url(fonts/static/Spartan-ExtraLight.ttf);
 }
 
+@font-face {
+  font-family: "Spartan Regular";
+  src: url(fonts/static/Spartan-Regular.ttf);
+}
+
 body {
   overflow: hidden;
 }
@@ -440,10 +445,23 @@ body {
   z-index: 1;
 }
 
-.fityFour img {
-  width: 65%;
-  margin-top: 20%;
-  margin-left: 19%;
+.fityFour h3 {
+  font-family: "Spartan Regular";
+  font-size: 2.8rem;
+  color: #FFFFFF;
+  width: 100%;
+  margin-top: 29.5%;
+  margin-left: 23%;
+}
+
+.fityFour h4 {
+  font-family: "Spartan ExtraLight";
+  font-size: 1.7rem;
+  color: #FFFFFF;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 26.5%;
+  line-height: 130%;
 }
 
 .textProducts {
