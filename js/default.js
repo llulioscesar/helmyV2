@@ -1,11 +1,11 @@
-// $(window).scroll(function () {
-//    var scroll = $(window).scrollTop();
-//    if (scroll > 80) {
-//       $("#nav").addClass("cabeceraOscura");
-//    } else {
-//       $("#nav").removeClass("cabeceraOscura");
-//    }
-// });
+$(window).scroll(function () {
+   var scroll = $(window).scrollTop();
+   if (scroll > 80) {
+      $("#nav").addClass("cabeceraOscura");
+   } else {
+      $("#nav").removeClass("cabeceraOscura");
+   }
+});
 
 $(window).on('load', function () {
    var URLactual = jQuery(location).attr('href');

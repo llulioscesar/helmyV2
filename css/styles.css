@@ -9,8 +9,13 @@ body {
 }
 
 @font-face {
-  font-family: Spartan Thin;
-  src: url(fonts/Spartan-Variable.ttf);
+  font-family: "Spartan Thin";
+  src: url(fonts/Spartan-Variable.ttf) format('truetype'),
+}
+
+@font-face {
+  font-family: "Spartan ExtraLight";
+  src: url(fonts/static/Spartan-ExtraLight.ttf);
 }
 
 body {
@@ -58,7 +63,8 @@ body {
 
 .cabeceraOscura {
   position: fixed;
-  background-color:  #000000;
+  /* background-image:  url(images/BackgroundNav.png); */
+  background-color: #1e1d1d;
   width: 100%;
   height: 5rem;
   top: 0;
@@ -87,7 +93,7 @@ body {
 }
 
 .right-ul li a {
-  font-family: Spartan Thin;
+  font-family: "Spartan ExtraLight";
   font-size: 95%;
   outline: none;
   text-decoration: none;
@@ -147,7 +153,7 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0);
   top: 0;
-  display: flex;
+  /* display: flex; */
   z-index: 10;
 }
 
@@ -163,12 +169,12 @@ body {
 
 .naverProducts {
   width: 6%;
-  height: 500vh;
+  height: 100vh;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.9);
   top: 0;
-  display: flex;
   z-index: 10;
+  margin-right: 95%;
 }
 
 .naverWe {
@@ -242,7 +248,7 @@ body {
 }
 
 .sp {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   display: block;
   color: #0090ff;
   margin-left: 215%;
@@ -251,7 +257,7 @@ body {
 }
 
 .en {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   display: block;
   color: #FFFFFF;
   margin-left: 221%;
@@ -396,6 +402,29 @@ body {
   margin-left: 57%;
 }
 
+/* .contePro {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  direction: rtl;
+  margin-left: 9%;
+  margin-top: 13%;
+}
+
+.contePro::-webkit-scrollbar {
+  height: 1vh !important;
+  width: 12px;
+} */
+/* 
+.contePro::-webkit-scrollbar-thumb {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #0090ff;
+} */
+
 .hel {
   position: absolute;
 }
@@ -404,26 +433,6 @@ body {
   width: 98%;
   margin-top: 13%;
   margin-left: 4%;
-  filter: blur(1.5px);
-}
-
-.all {
-  position: absolute;
-  height: 40vh;
-  overflow-y: scroll;
-  direction: rtl;
-  margin-left: 9%;
-  margin-top: 13%;
-  /* z-index: 1000; */
-}
-
-.all::-webkit-scrollbar {
-  width: 7px;
-}
-
-.all::-webkit-scrollbar-thumb {
-  background: #0090ff;
-  border-radius: 3px;
 }
 
 .fityFour {
@@ -442,7 +451,7 @@ body {
 }
 
 .textProducts h3 {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
   margin-top: 263%;
   margin-left: 100%;
@@ -450,10 +459,10 @@ body {
 
 .lineProducts {
   position: absolute;
-  border-bottom: 3px solid rgba(112, 112, 112, 0.3);
-  width: 62%;
-  margin-top: 42.5%;
-  margin-left: 35%;
+  border-bottom: 2px solid rgba(255, 255, 255);
+  width: 55%;
+  margin-top: 43%;
+  margin-left: 40%;
 }
 
 .enmascararOne {
@@ -491,7 +500,7 @@ body {
 }
 
 .textLogin h4 {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
 }
 
@@ -521,7 +530,7 @@ body {
 
 .textbox {
   width: 220%;
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
   background-color: transparent !important;
   margin-bottom: 5%;
@@ -553,7 +562,7 @@ input:-webkit-autofill:focus {
 }
 
 .passRe a{
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   font-size: 80%;
   text-decoration: none;
   color: #FFFFFF;
@@ -585,7 +594,7 @@ input:-webkit-autofill:focus {
 }
 
 .btnDes:disabled {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   outline: none;
   width: 315%;
   border-radius: 10px;
@@ -600,7 +609,7 @@ input:-webkit-autofill:focus {
 
 
 .btn_login{
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   outline: none;
   width: 315%;
   border-radius: 10px;
@@ -629,7 +638,7 @@ input:-webkit-autofill:focus {
 }
 
 .textLoginRedes h4 {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
 }
 
@@ -657,7 +666,7 @@ input:-webkit-autofill:focus {
 }
 
 .wetext h4 {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
   font-size: 150%;
 }
@@ -728,7 +737,7 @@ input:-webkit-autofill:focus {
 }
 
 .wetextOne h2 {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   color: #FFFFFF;
 }
 
@@ -833,18 +842,58 @@ input:-webkit-autofill:focus {
 .btnWe {
   position: absolute;
   margin-top: 138%;
-  margin-left: 45%;
+  margin-left: 42%;
 }
 
 .btnWe a {
-  font-family: Spartan Thin;
+  font-family: "Spartan Thin";
   outline: none;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
   border: 2px solid #0090ff;
 	background-color: transparent !important;
 	color: #FFFFFF !important;
   padding-top: 5%;
+  padding-right: 5vh;
   padding-bottom: 5%;
+  padding-left: 5vh;
   cursor: pointer;
+}
+
+.funcionPro {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 15%;
+}
+
+.funcionPro img{
+  width: 90%;
+}
+
+.lineTwoProducts {
+  position: absolute;
+  border-bottom: 2px solid rgba(255, 255, 255);
+  width: 30%;
+  margin-top: 85%;
+  margin-left: 14%;
+}
+
+.textOneProducts {
+  position: absolute;
+  margin-top: 84.7%;
+  margin-left: 46%;
+}
+.textOneProducts h3 {
+  font-size: 22px;
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+}
+
+.scrollPro {
+  position: absolute;
+  height: 20%;
+  z-index: 10;
+  overflow-y: scroll;
+  direction: rtl;
+  margin-left: 20%;
 }
