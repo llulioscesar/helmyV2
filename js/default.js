@@ -49,7 +49,9 @@ $(function () {
 
 $(function () {
    $('#loginRe').on('click', function () {
+      $("#back").removeClass("backWe");
       $("#back").removeClass("backn");
+      $("#back").css("overflow-y", "hidden");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");
