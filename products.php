@@ -75,6 +75,51 @@
     <h5>Este producto nació para<br>proteger tú vida y la de aquellos<br>que más amas</h5>
     <a href="javascript:void(0)" id="BtnMProducto">VER MÁS</a>
 </div>
+<div class="formPro">
+    <div class="elipsePro">
+        <img src="css/images/elipsePro.png" alt="">
+    </div>
+    <div class="cuadriculaPro">
+        <img src="css/images/cuadriculaThree.png" alt="">
+    </div>
+    <div class="enmascararPro">
+        <img src="css/images/enmascararThree.png" alt="">
+    </div>
+    <div class="userPro">
+        <img src="css/images/user.png" alt="">
+    </div>
+    <div class="trazadoPro">
+        <img src="css/images/TrazadoPro.png" alt="">
+    </div>
+    <div class="telPro">
+        <img src="css/images/tel.png" alt="">
+    </div>
+    <div class="mailPro">
+        <img src="css/images/mail.png" alt="">
+    </div>
+    <div class="boxPro">
+        <h1>REGISTRATE</h1>
+        <p>Déjanos tus datos para recibir más información</p>
+        <form action="" id="products">
+            <div>
+                <input type="text" name="name" id="name" placeholder="Nombre" class="textboxPro">
+            </div>
+            <div>
+                <input type="tel" name="tel" id="tel" placeholder="Teléfono" class="textboxPro">
+            </div>
+            <div>
+              <input type="email" name="email" id="email" placeholder="Correo" class="textboxPro">
+            </div>
+            <div class="btnPro">
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="btnProEnviar">
+            </div>
+        </form>
+        <div class="textFinalPro">
+            <p>¡Gracias por tu interés en Helmy, nuestros<br> 
+               asesores se pondrán en contacto contigo!</p>
+        </div>
+    </div>
+</div>
 <div class="naverProducts">
     <div class="menu">
         <li><img src="css/images/BotonMenu.png" alt="Click"></li>
@@ -85,7 +130,7 @@
         <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
 </div>
-<!-- <script src="js/scroll.js"></script> -->
+<script src="js/products.js"></script>
 </div>   
 </body>
 </html>
