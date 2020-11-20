@@ -549,10 +549,82 @@ body {
   margin-left: 4%;
 }
 
-.textCPro {
+.textMPro {
   position: absolute;
   margin-top: 104%;
   margin-left: 60%;
+}
+
+.textMPro h1 {
+  font-family: "Spartan Regular";
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+.textMPro p {
+  font-family: "Spartan Thin";
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.textMPro h5 {
+  font-family: "Spartan Medium";
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: 14%;
+  margin-bottom: 15%;
+}
+
+.textMPro a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 2px solid #0090ff;
+	background-color: transparent !important;
+  color: #FFFFFF !important;
+  padding-top: 5%;
+  padding-right: 5vh;
+  padding-bottom: 5%;
+  padding-left: 5vh;
+}
+
+.CPro {
+  position: absolute;
+  margin-top: 144.5%;
+  z-index: -1;
+}
+
+.CPro img {
+  width: 55%;
+  margin-left: 205%;
+}
+
+.circleCPro {
+  position: absolute;
+  margin-top: 150%;
+  z-index: -2;
+}
+
+.circleCPro img {
+  width: 55%;
+  margin-left: 70%;
+}
+
+.helmyCPro {
+  position: absolute;
+}
+
+.helmyCPro img {
+  width: 53%;
+  margin-top: 160%;
+  margin-left: 55%;
+}
+
+.textCPro {
+  position: absolute;
+  margin-top: 152%;
+  margin-left: 17%;
 }
 
 .textCPro h1 {
@@ -571,8 +643,8 @@ body {
   font-family: "Spartan Medium";
   font-size: 22px;
   color: #FFFFFF;
-  margin-top: 14%;
-  margin-bottom: 15%;
+  margin-top: 10%;
+  margin-bottom: 12%;
 }
 
 .textCPro a {
@@ -587,28 +659,6 @@ body {
   padding-right: 5vh;
   padding-bottom: 5%;
   padding-left: 5vh;
-}
-
-/* .CPro {
-  position: absolute;
-  margin-top: 150%;
-  margin-left: 50%;
-  z-index: -1;
-}
-
-.CPro img {
-  width: 55%;
-} */
-
-.circleCPro {
-  position: absolute;
-  margin-top: 150%;
-  margin-left: 50%;
-  z-index: -2;
-}
-
-.circleCPro img {
-  width: 55%;
 }
 
 .enmascararOne {

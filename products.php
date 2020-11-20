@@ -36,13 +36,10 @@
 <div class="circleMPro">
     <img src="css/images/BGCirclePro.png" alt="">
 </div>
-<div class="circleCPro">
-    <img src="css/images/BGCirclePro.png" alt="">
-</div>
 <div class="helmyMPro">
     <img src="css/images/helmyMPro.png" alt="">
 </div>
-<div class="textCPro">
+<div class="textMPro">
     <h1>Helmy M</h1>
     <p>Helmy-M se instala conectado<br>
        directamente al encendido de tú<br> 
@@ -55,8 +52,28 @@
 <div class="CPro">
     <img src="css/images/CPro.png" alt="">
 </div>
+<div class="circleCPro">
+    <img src="css/images/BGCirclePro.png" alt="">
+</div>
 <div class="helmyCPro">
     <img src="css/images/helmyCPro.png" alt="">
+</div>
+<div class="textCPro">
+    <h1>Helmy C</h1>
+    <p>Helmy-C se instala de la misma<br>
+       forma que cualquier<br>
+       intercomunicador a cascos<br>
+       abatibles o integrales. Helmy-C<br>
+       es un dispositivo que fue<br>
+       construido con las tecnologías<br>
+       más avanzadas y que está<br> 
+       diseñado para proteger tú vida y<br> 
+       darte toda la comodidad de<br> 
+       utilizar un sistema de<br>
+       intercomunicación.
+    </p>
+    <h5>Este producto nació para<br>proteger tú vida y la de aquellos<br>que más amas</h5>
+    <a href="javascript:void(0)" id="BtnMProducto">VER MÁS</a>
 </div>
 <div class="naverProducts">
     <div class="menu">
