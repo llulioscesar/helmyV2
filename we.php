@@ -60,7 +60,8 @@
         <a href="https://www.instagram.com/" id="customBtnFace" target="_blank"><img src="css/images/instagramSocial.png" alt="Instagram"></a>
         <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
-</div>
-</div>   
+</div> 
+<script src="js/we.js"></script> 
+<div id="dash"></div> 
 </body>
 </html>

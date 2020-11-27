@@ -49,6 +49,20 @@ body {
   background-attachment: fixed;
 }
 
+.backm {
+  width: 100%;
+  height: 530vh;
+  background-image: url("images/BackgroundProducts.png");
+  background-attachment: fixed;
+}
+
+.backc {
+  width: 100%;
+  height: 510vh;
+  background-image: url("images/BackgroundProducts.png");
+  background-attachment: fixed;
+}
+
 .backLogin img {
   width: 100%;
   height: 100vh;
@@ -153,7 +167,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   top: 0;
   display: flex;
-  z-index: 10;
+  z-index: 30;
 }
 
 .naverLogin {
@@ -162,8 +176,7 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0);
   top: 0;
-  /* display: flex; */
-  z-index: 10;
+  z-index: 30;
 }
 
 .naverApp {
@@ -173,7 +186,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   display: flex;
-  z-index: 10;
+  z-index: 30;
 }
 
 .naverProducts {
@@ -186,6 +199,16 @@ body {
   margin-right: 95%;
 }
 
+.naverAll {
+  width: 6%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  z-index: 30;
+  margin-right: 95%;
+}
+
 .naverWe {
   width: 6%;
   height: 100vh;
@@ -193,7 +216,7 @@ body {
   background-color: #000000;
   top: 0;
   display: flex;
-  z-index: 10;
+  z-index: 30;
 }
 
 .menu {
@@ -226,7 +249,7 @@ body {
 
 .descub {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 .descub a img {
@@ -276,12 +299,15 @@ body {
 
 .elMejor {
   position: absolute;
+  margin-left: 15%;
+  margin-top: 13.5%;
 }
 
-.elMejor img {
-  width: 62%;
-  margin-top: 22%;
-  margin-left: 30%;
+.elMejor h2 {
+  font-family: "Spartan Thin";
+  width: 100%;
+  font-size: 60px;
+  color: #FFFFFF;
 }
 
 .lan {
@@ -540,6 +566,7 @@ body {
 
 .helmyMPro {
   position: absolute;
+  z-index: -1;
 }
 
 .helmyMPro img {
@@ -558,12 +585,14 @@ body {
   font-family: "Spartan Regular";
   font-size: 45px;
   color: #FFFFFF;
+  z-index: -1;
 }
 
 .textMPro p {
   font-family: "Spartan Thin";
   font-size: 22px;
   color: #FFFFFF;
+  z-index: -1;
 }
 
 .textMPro h5 {
@@ -572,6 +601,7 @@ body {
   color: #FFFFFF;
   margin-top: 14%;
   margin-bottom: 15%;
+  z-index: -1;
 }
 
 .textMPro a {
@@ -586,12 +616,13 @@ body {
   padding-right: 5vh;
   padding-bottom: 5%;
   padding-left: 5vh;
+  z-index: 10;
 }
 
 .CPro {
   position: absolute;
   margin-top: 144.5%;
-  z-index: -1;
+  z-index: -2;
 }
 
 .CPro img {
@@ -612,6 +643,7 @@ body {
 
 .helmyCPro {
   position: absolute;
+  z-index: -2;
 }
 
 .helmyCPro img {
@@ -916,6 +948,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 11%;
   margin-left: 12%;
+  z-index: -10;
 }
 
 .wetext h4 {
@@ -936,7 +969,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 15%;
   margin-left: -4.5%;
-  z-index: -1;
+  z-index: -10;
 }
 
 .cuadriculaWe img {
@@ -947,6 +980,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 17%;
   margin-left: 12%;
+  z-index: -10;
 }
 
 .honorWe img {
@@ -957,6 +991,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 25%;
   margin-left: 60%;
+  z-index: -10;
 }
 
 .logEdisonWe img {
@@ -967,6 +1002,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 50%;
   margin-left: 12%;
+  z-index: -10;
 }
 
 .marcoWe img{
@@ -977,6 +1013,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 42%;
   margin-left: 12%;
+  z-index: 1;
 }
 
 .videoWe img {
@@ -987,6 +1024,7 @@ input:-webkit-autofill:focus {
   position: absolute;
   margin-top: 53%;
   margin-left: 52%;
+  z-index: -1;
 }
 
 .wetextOne h2 {
@@ -1113,14 +1151,14 @@ input:-webkit-autofill:focus {
   cursor: pointer;
 }
 
-.scrollPro {
+/* .scrollPro {
   position: absolute;
   height: 20%;
   z-index: 10;
   overflow-y: scroll;
   direction: rtl;
   margin-left: 20%;
-}
+} */
 
 .boxPro h1 {
   font-family: "Spartan Regular";
@@ -1215,5 +1253,585 @@ input:-webkit-autofill:focus {
 }
 
 .mailPro img {
+  width: 60%;
+}
+
+.conHelmyM {
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 1.6%;
+}
+
+.conHelmyM img {
+  width: 57%;
+}
+
+.textHelmyM {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 55%;
+}
+
+.textHelmyM h1{
+  font-family: "Spartan Regular";
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+.textHelmyM p{
+  font-family: "Spartan Thin";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.btnHelmyM {
+  position: absolute;
+  width: 100%;
+  margin-top: 42%;
+  margin-left: 49%;
+}
+
+.btnHelmyM a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid #2E2E2E;
+	background-color: #4D4D4D !important;
+  color: #FFFFFF !important;
+  margin-left: 20%;
+  padding-top: 1%;
+  padding-right: 5vh;
+  padding-bottom: 1%;
+  padding-left: 5vh;
+  cursor: pointer;
+}
+
+.textOneM {
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 8%;
+}
+
+.textOneM p{
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+
+.textOneM img {
+  width: 50%;
+  cursor: pointer;
+}
+
+.funHelmyM {
+  position: absolute;
+  margin-top: 63%;
+  margin-left: -4%;
+}
+
+.funHelmyM img {
+  width: 100%;
+}
+
+.conjuntoM {
+  position: absolute;
+  margin-top: 120%;
+  margin-left: -14%;
+}
+
+.conjuntoM img {
+  width: 65%;
+  z-index: -10;
+}
+
+.textTwoM {
+  position: absolute;
+  margin-top: 132%;
+  margin-left: 48.8%;
+}
+
+.textTwoM h1 {
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+}
+
+.lineM {
+  position: absolute;
+  border-bottom: 2.5px solid #FFFFFF;
+  width: 22%;
+  margin-top: 135.1%;
+  margin-left: 67%;
+}
+
+.textTwoM p {
+  font-family: "Spartan Thin";
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.btnsHelmyM {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 155%;
+  margin-left: 49%;
+  z-index: 10;
+}
+
+.btnsHelmyM a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 2px solid #0090ff;
+	background-color: #444444;
+	color: #FFFFFF !important;
+  padding-top: 1%;
+  padding-right: 4vh;
+  padding-bottom: 1%;
+  padding-left: 4vh;
+  cursor: pointer;
+}
+
+.btnsHelmyM .atwo {
+	background-color: transparent !important;
+  color: #FFFFFF !important;
+  margin-left: 10%;
+}
+
+.elipseProM {
+  position: absolute;
+  margin-top: 190%;
+  margin-left: 15%;
+  z-index: -10;
+}
+
+.elipseProM img {
+  width: 45%;
+}
+
+.cuadriculaProM {
+  position: absolute;
+  margin-top: 197%;
+  margin-left: 12%;
+  z-index: -5;
+}
+
+.cuadriculaProM img {
+  width: 45%;
+}
+
+.enmascararProM {
+  position: absolute;
+  margin-top: 197%;
+  z-index: -2;
+}
+
+.enmascararProM img {
+  width: 50%;
+  margin-left: 120%;
+}
+
+.trazadoProM {
+  position: absolute;
+  margin-top: 221%;
+  z-index: -5;
+}
+
+.trazadoProM img {
+  width: 62%;
+  margin-left: 158.5%;
+}
+
+.boxProM {
+  position: absolute;
+  width: 61%;
+  height: 80%;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+  backdrop-filter: blur(2px); /* Chrome and Opera */
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 2;
+  margin-top: 202%;
+  margin-left: 22%;
+  z-index: 1;
+}
+
+.boxProM h1 {
+  font-family: "Spartan Regular";
+  color: #FFFFFF;
+  margin-top: 5%;
+  margin-left: 21%;
+}
+
+.boxProM p {
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  margin-left: 21%;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+
+.textboxProM {
+  width: 51%;
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  background-color: transparent !important;
+  margin-left: 21%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1.5px solid #FFFFFF;
+  text-indent: 12%;
+  border-radius: 10px;
+  outline: none;
+}
+
+.textboxProM::placeholder {
+  color: #FFFFFF;
+}
+
+.btnProM {
+  margin-left: 55%;
+}
+
+.textFinalProM {
+  margin-top: 8% !important;
+  margin-left: 3.5% !important;
+  z-index: -1;
+}
+
+.textFinalProM p {
+  color: #FFFFFF !important;
+}
+
+.userProM {
+  position: absolute;
+  margin-top: 211.6%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.userProM img {
+  width: 60%;
+}
+
+.telProM {
+  position: absolute;
+  margin-top: 215.7%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.telProM img {
+  width: 60%;
+}
+
+.mailProM {
+  position: absolute;
+  margin-top: 220%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.mailProM img {
+  width: 60%;
+}
+
+.conHelmyC {
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 1.6%;
+}
+
+.conHelmyC img {
+  width: 57%;
+}
+
+.textHelmyC {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 55%;
+}
+
+.textHelmyC h1{
+  font-family: "Spartan Regular";
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+.textHelmyC p{
+  font-family: "Spartan Thin";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.btnHelmyC {
+  position: absolute;
+  width: 100%;
+  margin-top: 45%;
+  margin-left: 49%;
+}
+
+.btnHelmyC a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid #2E2E2E;
+	background-color: #4D4D4D !important;
+  color: #FFFFFF !important;
+  margin-left: 20%;
+  padding-top: 1%;
+  padding-right: 5vh;
+  padding-bottom: 1%;
+  padding-left: 5vh;
+  cursor: pointer;
+}
+
+.textOneC {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 8%;
+}
+
+.textOneC p{
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+
+.textOneC img {
+  width: 50%;
+  cursor: pointer;
+}
+
+.funHelmyC {
+  position: absolute;
+  margin-top: 63%;
+  margin-left: -4%;
+}
+
+.funHelmyC img {
+  width: 100%;
+}
+
+.conHelmet {
+  position: absolute;
+  margin-top: 116%;
+  margin-left: -6%;
+}
+
+.conHelmet img {
+  width: 55%;
+  z-index: -10;
+}
+
+.textTwoC {
+  position: absolute;
+  margin-top: 123%;
+  margin-left: 48.8%;
+}
+
+.textTwoC h1 {
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+}
+
+.lineC {
+  position: absolute;
+  border-bottom: 2.5px solid #FFFFFF;
+  width: 23%;
+  margin-top: 126.1%;
+  margin-left: 65%;
+}
+
+.textTwoC p {
+  font-family: "Spartan Thin";
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.textHelmyC .ptwo {
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+.textHelmyC a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 2px solid #0090ff;
+	background-color: transparent !important;
+  color: #FFFFFF !important;
+  padding-top: 2.5%;
+  padding-right: 4vh;
+  padding-bottom: 2%;
+  padding-left: 4vh;
+  cursor: pointer;
+}
+
+.btnsHelmyC {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 143.5%;
+  margin-left: 49%;
+  z-index: 10;
+}
+
+.btnsHelmyC a {
+  font-family: "Spartan Thin";
+  outline: none;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 2px solid #0090ff;
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+  padding-top: 1%;
+  padding-right: 4vh;
+  padding-bottom: 1%;
+  padding-left: 4vh;
+  cursor: pointer;
+}
+
+.elipseProC {
+  position: absolute;
+  margin-top: 172%;
+  margin-left: 15%;
+  z-index: -10;
+}
+
+.elipseProC img {
+  width: 45%;
+}
+
+.cuadriculaProC {
+  position: absolute;
+  margin-top: 179%;
+  margin-left: 12%;
+  z-index: -5;
+}
+
+.cuadriculaProC img {
+  width: 45%;
+}
+
+.enmascararProC {
+  position: absolute;
+  margin-top: 179%;
+  z-index: -2;
+}
+
+.enmascararProC img {
+  width: 50%;
+  margin-left: 120%;
+}
+
+.trazadoProC {
+  position: absolute;
+  margin-top: 203%;
+  z-index: -5;
+}
+
+.trazadoProC img {
+  width: 62%;
+  margin-left: 158.5%;
+}
+
+.boxProC {
+  position: absolute;
+  width: 61%;
+  height: 80%;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+  backdrop-filter: blur(2px); /* Chrome and Opera */
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 2;
+  margin-top: 184%;
+  margin-left: 22%;
+  z-index: 1;
+}
+
+.boxProC h1 {
+  font-family: "Spartan Regular";
+  color: #FFFFFF;
+  margin-top: 5%;
+  margin-left: 21%;
+}
+
+.boxProC p {
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  margin-left: 21%;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+
+.textboxProC {
+  width: 51%;
+  font-family: "Spartan Thin";
+  color: #FFFFFF;
+  background-color: transparent !important;
+  margin-left: 21%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1.5px solid #FFFFFF;
+  text-indent: 12%;
+  border-radius: 10px;
+  outline: none;
+}
+
+.textboxProC::placeholder {
+  color: #FFFFFF;
+}
+
+.btnProC {
+  margin-left: 55%;
+}
+
+.textFinalProC {
+  margin-top: 8% !important;
+  margin-left: 3.5% !important;
+  z-index: -1;
+}
+
+.textFinalProC p {
+  color: #FFFFFF !important;
+}
+
+.userProC {
+  position: absolute;
+  margin-top: 193.6%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.userProC img {
+  width: 60%;
+}
+
+.telProC {
+  position: absolute;
+  margin-top: 197.7%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.telProC img {
+  width: 60%;
+}
+
+.mailProC {
+  position: absolute;
+  margin-top: 202%;
+  margin-left: 35.8%;
+  z-index: 10;
+}
+
+.mailProC img {
   width: 60%;
 }

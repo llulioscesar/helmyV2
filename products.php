@@ -37,7 +37,7 @@
     <img src="css/images/BGCirclePro.png" alt="">
 </div>
 <div class="helmyMPro">
-    <img src="css/images/helmyMPro.png" alt="">
+    <img src="css/images/HelmyMPro.png" alt="">
 </div>
 <div class="textMPro">
     <h1>Helmy M</h1>
@@ -56,7 +56,7 @@
     <img src="css/images/BGCirclePro.png" alt="">
 </div>
 <div class="helmyCPro">
-    <img src="css/images/helmyCPro.png" alt="">
+    <img src="css/images/HelmyCPro.png" alt="">
 </div>
 <div class="textCPro">
     <h1>Helmy C</h1>
@@ -73,7 +73,7 @@
        intercomunicación.
     </p>
     <h5>Este producto nació para<br>proteger tú vida y la de aquellos<br>que más amas</h5>
-    <a href="javascript:void(0)" id="BtnMProducto">VER MÁS</a>
+    <a href="javascript:void(0)" id="BtnCProducto">VER MÁS</a>
 </div>
 <div class="formPro">
     <div class="elipsePro">
@@ -130,7 +130,7 @@
         <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
 </div>
-<script src="js/products.js"></script>
-</div>   
+<script src="js/products.js"></script> 
+<div id="dash"></div>
 </body>
 </html>

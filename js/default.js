@@ -22,7 +22,7 @@ $(window).on('load', function () {
    $('#hom').css("display", "block");
    $('#log').css("display", "none");
    $("#dash").load('index');
-})
+});
 
 $(function () {
    $('#homRe').on('click', function () {
@@ -133,15 +133,6 @@ $(function () {
    $("#main li").click(function () {
       // quitar .seleccionado a todos (por si hay alguno)
       $("#main li").removeClass("hov");
-      // agregar seleccionado a "este" elemento.
-      $(this).addClass("hov");
-   });
-});
-
-$(function () {
-   $("#main li ul li").click(function () {
-      // quitar .seleccionado a todos (por si hay alguno)
-      $("#main li ul li").removeClass("hov");
       // agregar seleccionado a "este" elemento.
       $(this).addClass("hov");
    });

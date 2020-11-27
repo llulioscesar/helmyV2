@@ -8,7 +8,10 @@
         <a href="javascript:void(0)" id="customBtn" class="en">EN</a>
     </div> 
     <div class="elMejor">
-        <img src="css/images/Elmejor.png" alt="El Mejor Invento">
+        <h2>El mejor invento<br>
+            después de<br>
+            las motos
+        </h2>
     </div> 
     <div class="back-index" id="index">
         <img src="css/images/BackgroundIndex.png" alt="IMAGEN PRINCIPAL">
@@ -25,6 +28,7 @@
         <div class="lineBorder"></div>
     </div>
 </div> 
-<!-- <script src="js/scroll.js"></script>       -->
+<script src="js/index.js"></script> 
+<div id="dash"></div>     
 </body>
 </html>
