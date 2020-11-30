@@ -52,9 +52,9 @@
 <div class="cp">
     <div class="g-recaptcha" data-sitekey="6Ld4vs8ZAAAAAGfpiLj_-4PxIb5X4aFie_nXMQ1K"></div>
 </div>
-<div class="backLogin">
+<!-- <div class="backLogin">
     <img src="css/images/BGLogin.png" alt="">
-</div>
+</div> -->
 <div class="naverLogin">
         <div class="menu">
             <li><img src="css/images/BotonMenu.png" alt="Click"></li>

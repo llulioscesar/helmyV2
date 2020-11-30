@@ -38,9 +38,6 @@
     <div class="helmyHemos">
         <img src="css/images/hemos.png" alt="">
     </div>
-    <div class="back-app">
-        <img src="css/images/BackgroundApp.png" alt="Error al cargar">
-    </div>
     <div class="naverApp">
         <div class="menu">
             <li><img src="css/images/BotonMenu.png" alt="Click"></li>

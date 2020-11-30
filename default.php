@@ -20,7 +20,7 @@
         <li><a href="javascript:void(0)" class="btn" id="loginRe">Mi cuenta</a></li>
         <li><a href="javascript:void(0)" class="btn" id="appRe">App</a></li>
         <li><a href="javascript:void(0)" class="btn" id="productsRe">Productos</a></li>
-        <li><a href="javascript:void(0)" class="btn">Distribuidores</a></li>
+        <li><a href="javascript:void(0)" class="btn" id="dealersRe">Distribuidores</a></li>
         <li><a href="javascript:void(0)" class="btn" id="weRe">Nosotros</a></li>
         <li><a href="javascript:void(0)" class="btn" id="contactRe">Contacto</a></li>
     </ul>

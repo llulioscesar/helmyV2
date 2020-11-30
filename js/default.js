@@ -51,6 +51,8 @@ $(function () {
    $('#loginRe').on('click', function () {
       $("#back").removeClass("backWe");
       $("#back").removeClass("backn");
+      $("#back").removeClass("backm");
+      $("#back").addClass("backd");
       $("#back").css("overflow-y", "hidden");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
@@ -64,6 +66,10 @@ $(function () {
    $('#appRe').on('click', function () {
       $("#back").removeClass("backn");
       $("#back").removeClass("backWe");
+      $("#back").removeClass("backm");
+      $("#back").removeClass("backd");
+      $("#back").addClass("backp");
+      $("#back").css("overflow-y", "hidden");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");
@@ -85,18 +91,6 @@ $(function () {
    });
 });
 
-$(function () {
-   $('#redDistriRe').on('click', function () {
-      $("#back").removeClass("backWe");
-      $("#back").removeClass("backn");
-      $('#hom').css("display", "none");
-      $('#log').css("display", "block");
-      $('#line').css("display", "none");
-      $("#dash").load('red');
-      return;
-   });
-});
-
 // $(function () {
 //    $('#vulDistriRe').on('click', function () {
 //       $("#dash").load('vuelvete');
@@ -113,6 +107,20 @@ $(function () {
       $('#log').css("display", "block");
       $('#line').css("display", "none");
       $("#dash").load('we');
+      return;
+   });
+});
+
+$(function () {
+   $('#dealersRe').on('click', function () {
+      $("#back").removeClass("backWe");
+      $("#back").removeClass("backn");
+      $("#back").addClass("backd");
+      // $("#back").css("overflow-y", "scroll");
+      $('#hom').css("display", "none");
+      $('#log').css("display", "block");
+      $('#line').css("display", "none");
+      $("#dash").load('dealers');
       return;
    });
 });
