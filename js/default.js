@@ -116,7 +116,7 @@ $(function () {
       $("#back").removeClass("backWe");
       $("#back").removeClass("backn");
       $("#back").addClass("backd");
-      // $("#back").css("overflow-y", "scroll");
+      $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");

@@ -13,10 +13,61 @@
 <div class="circleDealers">
     <img src="css/images/BGCircles.png" alt="">
 </div>
+<div class="deFiv">
+    <img src="css/images/deFiv.png" alt="">
+</div>
+<div class="filtro">
+    <a href="javascript:void(0)" id="filtro"><img src="css/images/filtros.png" alt=""></a>
+</div>
 <div class="formDealers">
-    <div class="">
-
+    <div class="boxInputsDe">
+        <div class="">
+            <input type="text" name="address" id="address" placeholder="Dirección" class="textboxDe">
+        </div>
+        <div class="city">
+                <select class="textboxDeS" name="city" id="city">
+                    <option value="">Ciudad</option>
+                    <option value="Bogotá">Bogotá</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Ibagué">Ibagué</option>
+                    <option value="Medellín">Medellín</option>
+                    <option value="Villavicencion">Villavicencion</option>
+                </select>
+        </div>
+        <div class="marca">
+            <select class="textboxDeS" name="brand" id="brand">
+                <option value="">Marca Moto</option>
+            </select>
+        </div>
+        <div class="btnDealers">
+            <a href="javascript:void(0)" id="btnBuscar" class="btnDealer">BUSCAR</a>
+        </div>
     </div>
+</div>
+<div class="lugBaDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Barranquilla</h5>
+</div>
+<div class="lugMeDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Medellín</h5>
+</div>
+<div class="lugBoDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Bogotá</h5>
+</div>
+<div class="LugIbDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Ibagué</h5>
+</div>
+<div class="LugViDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Villavicencio</h5>
+</div>
+<div class="LugCaDe">
+    <img src="css/images/iconoLugar.png" alt="">
+    <h5>Cali</h5>
 </div>
 <div class="naverWe">
     <div class="menu">
