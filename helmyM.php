@@ -70,7 +70,7 @@
     <div class="boxProM">
         <h1>REGISTRATE</h1>
         <p>Déjanos tus datos para recibir más información</p>
-        <form action="" id="products">
+        <form id="products" method="post">
             <div>
                 <input type="text" name="name" id="name" placeholder="Nombre" class="textboxPro">
             </div>
@@ -84,6 +84,8 @@
                 <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="btnProEnviar">
             </div>
         </form>
+        <div class="exito" id="bien"></div>
+        <div class="error" id="error"></div>
         <div class="textFinalProM">
             <p>¡Gracias por tu interés en Helmy, nuestros<br> 
                asesores se pondrán en contacto contigo!
@@ -101,5 +103,6 @@
         <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
 </div>
+<script src="js/products.js"></script> 
 </body>
 </html>
