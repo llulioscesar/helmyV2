@@ -2119,3 +2119,102 @@ option {
   margin-top: 12%;
   margin-left: -4%;
 }
+
+.backLegal {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/BackgroundIndex.png");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.boxLegal {
+  position: absolute;
+  width: 80%;
+  height: 97%;
+  overflow-y: scroll;
+  background-color: rgba(99, 99, 99, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
+  margin-top: 1%;
+  margin-left: 9.5%;
+}
+
+.boxLegal::-webkit-scrollbar{
+  width: 8px;
+  min-height: 10px;
+}
+
+.boxLegal::-webkit-scrollbar-thumb{
+  background: #0090ff;
+  border-radius: 3px;
+}
+
+.logTaLegal {
+  position: fixed;
+  margin-top: 4%;
+  margin-left: 6%;
+  z-index: -1;
+}
+
+.logTaLegal img {
+  width: 50%;
+}
+
+.logHelmyLegal {
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 80%;
+  z-index: -1;
+}
+
+.logHelmyLegal img {
+  width: 70%;
+}
+
+.textosLegal {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 6%;
+}
+
+.textosLegal h2 {
+  font-family: "Spartan Thin";
+  color: #ffffff;
+  width: 90%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.textosLegal h4{
+  font-family: "Spartan Thin";
+  color: #ffffff;
+  width: 90%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.textosLegal p{
+  font-family: "Spartan Thin";
+  color: #ffffff;
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+.exito h5{
+  font-family: "Spartan Thin";
+  color: #0090ff;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: -10%;
+  margin-bottom: -5%;
+}
+
+.error h5{
+  font-family: "Spartan Thin";
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: -10%;
+  margin-bottom: -5%;
+}

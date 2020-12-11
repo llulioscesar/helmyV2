@@ -71,7 +71,7 @@
     <div class="boxProC">
         <h1>REGISTRATE</h1>
         <p>Déjanos tus datos para recibir más información</p>
-        <form action="" id="products">
+        <form id="products" method="post">
             <div>
                 <input type="text" name="name" id="name" placeholder="Nombre" class="textboxPro">
             </div>
@@ -85,6 +85,8 @@
                 <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="btnProEnviar">
             </div>
         </form>
+        <div class="exito" id="bien"></div>
+        <div class="error" id="error"></div>
         <div class="textFinalProC">
             <p>¡Gracias por tu interés en Helmy, nuestros<br> 
                asesores se pondrán en contacto contigo!

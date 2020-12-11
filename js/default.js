@@ -1,3 +1,5 @@
+// console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height);
+
 $(window).scroll(function () {
    var scroll = $(window).scrollTop();
    if (scroll > 80) {

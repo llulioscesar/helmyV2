@@ -68,7 +68,7 @@ function validarDatos(e) {
                     $('.swal2-confirm').on('click', function() {
                             $("#dash").load('helmet');
                             return;
-                        });   
+                    });   
                 } else {
                     swal({
                         title: 'Error',
@@ -134,3 +134,4 @@ function validarLongitud(campo) {
          campo.classList.add('error');
     }
 }
+

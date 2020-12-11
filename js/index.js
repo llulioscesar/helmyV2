@@ -9,5 +9,4 @@ $(function () {
        $("#dash").load('products');
        return;
     });
-});
-  
+}); 
