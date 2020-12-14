@@ -1,5 +1,6 @@
 // console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height);
 
+
 $(window).scroll(function () {
    var scroll = $(window).scrollTop();
    if (scroll > 80) {
@@ -49,20 +50,20 @@ $(function () {
    });
 });
 
-$(function () {
-   $('#loginRe').on('click', function () {
-      $("#back").removeClass("backWe");
-      $("#back").removeClass("backn");
-      $("#back").removeClass("backm");
-      $("#back").addClass("backd");
-      $("#back").css("overflow-y", "hidden");
-      $('#hom').css("display", "none");
-      $('#log').css("display", "block");
-      $('#line').css("display", "none");
-      $("#dash").load('login');
-      return;
-   });
-});
+// $(function () {
+//    $('#loginRe').on('click', function () {
+//       $("#back").removeClass("backWe");
+//       $("#back").removeClass("backn");
+//       $("#back").removeClass("backm");
+//       $("#back").addClass("backd");
+//       $("#back").css("overflow-y", "hidden");
+//       $('#hom').css("display", "none");
+//       $('#log').css("display", "block");
+//       $('#line').css("display", "none");
+//       $("#dash").load('login');
+//       return;
+//    });
+// });
 
 $(function () {
    $('#appRe').on('click', function () {
