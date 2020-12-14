@@ -33,7 +33,7 @@ body {
   src: url(fonts/static/Spartan-Light.ttf);
 }
 
-@media screen and (max-width: 1820px) and (min-width: 1220px){
+@media screen and (min-width: 1220px){
   body {
     overflow: hidden;
   }
@@ -2222,7 +2222,7 @@ body {
 }
 
 
-@media screen and (max-width: 1024px) and (min-width: 320px){
+@media screen and (min-width: 320px){
   body {
     overflow: hidden;
   }
