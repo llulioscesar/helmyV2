@@ -1,12 +1,6 @@
 <div class="conHelmyM">
     <img src="css/images/ConHelmyM.png" alt="">
 </div>
-<div class="textOneM">
-    <p>Para configurar y usar Helmy-M deberás<br> 
-        descargar Helmy-APP a tu celular
-    </p>
-    <img src="css/images/app.png" alt="">
-</div>
 <div class="textHelmyM">
     <h1>Helmy M</h1>
     <p>Hemos diseñado Helmy-M para que se<br>
@@ -23,6 +17,12 @@
 </div>
 <div class="btnHelmyM">
     <a href="javascript:void(0)" id="BtnREGISTRATEM">REGISTRATE PARA MÁS INFORMACIÓN</a>
+</div>
+<div class="textOneM">
+    <p>Para configurar y usar Helmy-M deberás<br> 
+        descargar Helmy-APP a tu celular
+    </p>
+    <a href="https://play.google.com/store/apps/details?id=com.skgames.trafficrider&hl=es_419" id="customBtn" target="_blank"><img src="css/images/botonGoogle.png" alt=""></a>
 </div>
 <div class="funHelmyM">
     <img src="css/images/Funcionalidades.png" alt="">
@@ -98,10 +98,9 @@
         <li><img src="css/images/BotonMenu.png" alt="Click"></li>
     </div>
     <div class="items-social">
-        <a href="https://www.facebook.com/" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/" id="customBtnFace" target="_blank"><img src="css/images/instagramSocial.png" alt="Instagram"></a>
-        <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
-    </div>
+    <a href="https://www.facebook.com/HelmyEd" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com/" id="customBtnFace" target="_blank"><img src="css/images/youtubeSocial.svg" alt="Instagram"></a>
+        <a href="https://twitter.com/Helmy_Ed" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
 </div>
 <script src="js/products.js"></script> 
 </body>

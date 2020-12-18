@@ -99,9 +99,9 @@
         <li><img src="css/images/BotonMenu.png" alt="Click"></li>
     </div>
     <div class="items-social">
-        <a href="https://www.facebook.com/" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/" id="customBtnFace" target="_blank"><img src="css/images/instagramSocial.png" alt="Instagram"></a>
-        <a href="https://twitter.com/" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
+    <a href="https://www.facebook.com/HelmyEd" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com/" id="customBtnFace" target="_blank"><img src="css/images/youtubeSocial.svg" alt="Instagram"></a>
+        <a href="https://twitter.com/Helmy_Ed" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
 </div>
 <script src="js/helmyc.js"></script> 
