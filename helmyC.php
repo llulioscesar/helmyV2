@@ -1,12 +1,6 @@
 <div class="conHelmyC">
     <img src="css/images/ConHelmyC.png" alt="">
 </div>
-<div class="textOneC">
-    <p>Para configurar y usar Helmy-C deberás<br> 
-        descargar Helmy-APP a tu celular
-    </p>
-    <img src="css/images/app.png" alt="">
-</div>
 <div class="textHelmyC">
     <h1>Helmy C</h1>
     <p>Helmy-C se instala de la misma forma<br>
@@ -26,6 +20,12 @@
 </div>
 <div class="btnHelmyC">
     <a href="javascript:void(0)" id="BtnREGISTRATEC">REGISTRATE PARA MÁS INFORMACIÓN</a>
+</div>
+<div class="textOneC">
+    <p>Para configurar y usar Helmy-C deberás<br> 
+        descargar Helmy-APP a tu celular
+    </p>
+    <a href="https://play.google.com/store/apps/details?id=com.skgames.trafficrider&hl=es_419" id="customBtn" target="_blank"><img src="css/images/botonGoogle.png" alt=""></a>
 </div>
 <div class="funHelmyC">
     <img src="css/images/FuncionalidadesC.png" alt="">
@@ -99,8 +99,8 @@
         <li><img src="css/images/BotonMenu.png" alt="Click"></li>
     </div>
     <div class="items-social">
-    <a href="https://www.facebook.com/HelmyEd" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
-        <a href="https://www.youtube.com/" id="customBtnFace" target="_blank"><img src="css/images/youtubeSocial.svg" alt="Instagram"></a>
+        <a href="https://www.facebook.com/HelmyEd" id="customBtn" target="_blank"><img src="css/images/facebookSocial.png" alt="Facebook"></a>
+        <a href="https://youtu.be/zWd5WiqlN4o" id="customBtnFace" target="_blank"><img src="css/images/youtubeSocial.svg" alt="Instagram"></a>
         <a href="https://twitter.com/Helmy_Ed" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
     </div>
 </div>
