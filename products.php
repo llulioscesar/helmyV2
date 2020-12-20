@@ -1,5 +1,5 @@
-<!-- <div class="center">
-    <div class="documento"> -->
+<!-- <div id="center" class="center">
+    <div id ="document" class="documento"> -->
         <div class="conteScrollPro"></div>
         <div class="hel">
             <img src="css/images/GrupoFifty.png" alt="">

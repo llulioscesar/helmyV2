@@ -42,8 +42,8 @@
     </p>
 </div>
 <div class="btnsHelmyM">
-    <a href="javascript:void(0)" id="BtnDistriM">DISTRIBUIDORES</a>
-    <a href="javascript:void(0)" id="BtnManualM" class="atwo">VER MANUAL</a>
+    <a href="javascript:void(0)" id="BtnDistriM" class="atwo">DISTRIBUIDORES</a>
+    <a href="javascript:void(0)" id="BtnManualM" >VER MANUAL</a>
 </div>
 <div class="formProM">
     <div class="elipseProM">
@@ -55,22 +55,22 @@
     <div class="enmascararProM">
         <img src="css/images/enmascararThree.png" alt="">
     </div>
-    <div class="userProM">
-        <img src="css/images/user.png" alt="">
-    </div>
     <div class="trazadoProM">
         <img src="css/images/TrazadoPro.png" alt="">
-    </div>
-    <div class="telProM">
-        <img src="css/images/tel.png" alt="">
-    </div>
-    <div class="mailProM">
-        <img src="css/images/mail.png" alt="">
     </div>
     <div class="boxProM">
         <h1>REGISTRATE</h1>
         <p>Déjanos tus datos para recibir más información</p>
         <form id="products" method="post">
+            <div class="userPro">
+                <img src="css/images/user.png" alt="">
+            </div>
+            <div class="telPro">
+                <img src="css/images/tel.png" alt="">
+            </div>
+            <div class="mailPro">
+                <img src="css/images/mail.png" alt="">
+            </div>
             <div>
                 <input type="text" name="name" id="name" placeholder="Nombre" class="textboxPro">
             </div>

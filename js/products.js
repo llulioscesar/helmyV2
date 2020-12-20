@@ -2,6 +2,7 @@ $(function () {
     $('#BtnMProducto').on('click', function () {
        $("#back").removeClass("backWe");
        $("#back").removeClass("backn");
+       $("#back").removeClass("backd");
        $("#back").addClass("backm");
        $("#back").css("overflow-y", "scroll");
        $('#hom').css("display", "none");
@@ -17,6 +18,7 @@ $(function () {
        $("#back").removeClass("backWe");
        $("#back").removeClass("backn");
        $("#back").removeClass("backm");
+       $("#back").removeClass("backd");
        $("#back").addClass("backc");
        $("#back").css("overflow-y", "scroll");
        $('#hom').css("display", "none");
