@@ -22,6 +22,11 @@ $(window).on('load', function () {
 $(window).on('load', function () {
    $("#back").removeClass("backn");
    $("#back").removeClass("backWe");
+   $("#back").removeClass("backd");
+   $("#back").removeClass("backc");
+   $("#back").removeClass("backm"); 
+   $("#back").removeClass("backp");
+   $("#back").addClass("backInd");
    $('#hom').css("display", "block");
    $('#log').css("display", "none");
    $("#dash").load('index');
@@ -29,6 +34,13 @@ $(window).on('load', function () {
 
 $(function () {
    $('#homRe').on('click', function () {
+      $("#back").removeClass("backn");
+      $("#back").removeClass("backWe");
+      $("#back").removeClass("backc");
+      $("#back").removeClass("backm"); 
+      $("#back").removeClass("backp");
+      $("#back").removeClass("backd");
+      $("#back").addClass("backInd");
       $('#log').css("display", "none");
       $("#dash").load('index');
       $("#main li").removeClass("hov");
@@ -40,6 +52,11 @@ $(function () {
    $('#logRe').on('click', function () {
       $("#back").removeClass("backn");
       $("#back").removeClass("backWe");
+      $("#back").removeClass("backc");
+      $("#back").removeClass("backm"); 
+      $("#back").removeClass("backp");
+      $("#back").removeClass("backd");
+      $("#back").addClass("backInd");
       $("#back").css("overflow-y", "hidden");
       $('#hom').css("display", "block");
       $('#log').css("display", "none");
@@ -71,6 +88,7 @@ $(function () {
       $("#back").removeClass("backWe");
       $("#back").removeClass("backm");
       $("#back").removeClass("backd");
+      $("#back").removeClass("backInd");
       $("#back").addClass("backp");
       $("#back").css("overflow-y", "hidden");
       $('#hom').css("display", "none");
@@ -84,6 +102,8 @@ $(function () {
 $(function () {
    $('#productsRe').on('click', function () {
       $("#back").removeClass("backWe");
+      $("#back").removeClass("backInd");
+      $("#back").removeClass("backp");
       $("#back").addClass("backn");
       $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
@@ -105,6 +125,7 @@ $(function () {
    $('#weRe').on('click', function () {
       $("#back").removeClass("backn");
       $("#back").addClass("backWe");
+      $("#back").removeClass("backInd");
       $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
@@ -118,6 +139,7 @@ $(function () {
    $('#dealersRe').on('click', function () {
       $("#back").removeClass("backWe");
       $("#back").removeClass("backn");
+      $("#back").removeClass("backInd");
       $("#back").addClass("backd");
       $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
@@ -132,6 +154,7 @@ $(function () {
    $('#contactRe').on('click', function () {
       $("#back").removeClass("backWe");
       $("#back").removeClass("backn");
+      $("#back").removeClass("backInd");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");
