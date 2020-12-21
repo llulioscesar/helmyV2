@@ -1,10 +1,6 @@
-console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height);
-
-
-$(window).scroll(function () {
+$('#document').scroll(function () {
    var scroll = $(window).scrollTop();
-   if (scroll > 80) {
-      $("#nav").addClass("cabeceraOscura");
+   if (scroll > 80){$("#nav").addClass("cabeceraOscura");
    } else {
       $("#nav").removeClass("cabeceraOscura");
    }
@@ -105,7 +101,6 @@ $(function () {
       $("#back").removeClass("backInd");
       $("#back").removeClass("backp");
       $("#back").addClass("backn");
-      $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");
@@ -126,7 +121,6 @@ $(function () {
       $("#back").removeClass("backn");
       $("#back").addClass("backWe");
       $("#back").removeClass("backInd");
-      $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");
@@ -141,7 +135,6 @@ $(function () {
       $("#back").removeClass("backn");
       $("#back").removeClass("backInd");
       $("#back").addClass("backd");
-      $("#back").css("overflow-y", "scroll");
       $('#hom').css("display", "none");
       $('#log').css("display", "block");
       $('#line').css("display", "none");

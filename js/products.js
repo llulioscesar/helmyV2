@@ -1,10 +1,16 @@
+$('#document').scroll(function () {
+    var scroll = $('#document').scrollTop();
+    if (scroll > 80) {$("#nav").addClass("cabeceraOscura");
+    } else {
+       $("#nav").removeClass("cabeceraOscura");
+    }
+});
 $(function () {
     $('#BtnMProducto').on('click', function () {
        $("#back").removeClass("backWe");
        $("#back").removeClass("backn");
        $("#back").removeClass("backd");
        $("#back").addClass("backm");
-       $("#back").css("overflow-y", "scroll");
        $('#hom').css("display", "none");
        $('#log').css("display", "block");
        $('#line').css("display", "none");
@@ -20,7 +26,6 @@ $(function () {
        $("#back").removeClass("backm");
        $("#back").removeClass("backd");
        $("#back").addClass("backc");
-       $("#back").css("overflow-y", "scroll");
        $('#hom').css("display", "none");
        $('#log').css("display", "block");
        $('#line').css("display", "none");
