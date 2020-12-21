@@ -37,6 +37,8 @@
     <div class="lineIndex" id="line"></div>
     <script src="js/default.js"></script>
 </nav>
+<div id="center" class="center">
+    <div id="document" class="documento">
 <div id="dash"></div>
 </body>
 </html>

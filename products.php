@@ -1,5 +1,3 @@
-<!-- <div id="center" class="center">
-    <div id ="document" class="documento"> -->
         <div class="conteScrollPro"></div>
         <div class="hel">
             <img src="css/images/GrupoFifty.png" alt="">
@@ -130,8 +128,8 @@
                 <a href="https://twitter.com/Helmy_Ed" id="customBtnFace" target="_blank"><img src="css/images/TwitterSocial.png" alt="Twitter"></a>
             </div>
         </div>
-    <!-- </div>
-</div> -->
+    </div>
+</div>
 <script src="js/products.js"></script> 
 <div id="dash"></div>
 </body>

@@ -132,7 +132,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
@@ -148,6 +148,8 @@ body {
   display: block;
   height: 100vh;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .nav {
@@ -2293,6 +2295,18 @@ option {
     max-height: 1080px;
     transform: translate(-50%, -50%);
     width: calc(100% - 32px) !important;
+  }
+
+  .box {
+    top: 50% !important;
+    left: 50% !important;
+    right: 50% !important;
+    max-width: 1920px;
+    max-height: 1080px;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 32px) !important;
+    /* overflow-y: scroll; */
+    /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22); */
   }
 
   .center {
